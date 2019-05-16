@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.content{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.box{
+    text-align: center;
+    flex-basis: 15%;
+    margin: 1%;
+}
+
+.box a, .block-content a{
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    color: black;
+}
+
+.box a, .block-content a:visited{
+    color: black;
+}
+
+.box a:hover{
+    border-bottom: 1.5px solid black;
+}
+
+.block-content a:hover{
+    border-bottom: 1.5px solid black;
+}
+
+.block-content{
+    flex-basis: 50%;
+    text-align: center;
+}
