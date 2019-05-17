@@ -5,7 +5,10 @@
         <div class="block-content">
             <h3><a>{{ post.title }}</a></h3>
             <p>{{ post.text }}</p>
+            <br>
             <a href="{% url 'post_edit' pk=post.pk %}">edit post</a>
+            <br>
+            <br>
             <a href="{% url 'post_remove' pk=post.pk %}">delete post</a>
         </div>
     </div>

@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div class="content">
+    <div class="block-content">
     {% if title %}
     <h1>{{ title }}</h1>
     {% else %}
@@ -11,4 +13,6 @@
         {{ form.as_p }}
         <button type="submit" class="save btn btn-default">Save</button>
     </form>
+    </div>
+</div>
 {% endblock %}
