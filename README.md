@@ -6,3 +6,5 @@ I have implemented:
 2.  Post adding
 3.  Post deleting
 4.  Post editing
+
+**dont forget to migrate db!**
